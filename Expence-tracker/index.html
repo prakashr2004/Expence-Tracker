@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPENCE TRACKER</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+ 
+    <div class="container">
+        <div class="total">
+        <h3>YOUER BALANCE</h3>
+        <h1 id="blanceamount">  0.00</h1>
+    </div>
+    <div class="calculationAmount">
+        <div class="postive-amount">
+            <h4 id="income">INCOME</h4>
+            <P id="Addamount">  0.00</P>
+        </div>
+        <div class="negativeamount">
+            <h4 id="expence">EXPENCE</h4> <P id="Loseamount">  0.00</P>
+            
+        </div>
+        </div>
+        <div id="hy">
+            <h3 id="History">History</h3>
+            <div id="ul" class="out">
+            </div>
+        </div>
+        <div class="calculation">
+            <h4 id="tran">Add new transation</h4>
+            <legend>text  <br> <input type="text" id="inputtext"  placeholder="Enter a text ..."></legend>
+            <legend> <br> Amount <br>(negtive-expence, postive-income) <br> <input type="number" id="inputamout" placeholder="Enter amount ....." ></legend>
+            <button id="submit">Add transation</button>
+        </div>
+ 
+</div>
+
+    <script src="balance-calculation.js"></script>
+</body>
+</html>
